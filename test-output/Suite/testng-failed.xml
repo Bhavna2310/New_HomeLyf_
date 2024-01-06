@@ -6,12 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testclass.registerTest">
+      <class name="testclass.signIn_test">
         <methods>
+          <include name="verifyproduct"/>
           <include name="setup"/>
-          <include name="validverifytest"/>
+          <include name="takeScreenshot"/>
         </methods>
-      </class> <!-- testclass.registerTest -->
+      </class> <!-- testclass.signIn_test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

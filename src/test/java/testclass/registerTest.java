@@ -4,8 +4,8 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-import com.utility.BaseClass;
-import com.utility.ExcelDataProvider;
+import Com.Utility.BaseClass;
+import Com.Utility.ExcelDataProvider;
 
 import Com.POM.register_pom;
 import Com.POM.signIn_page;
@@ -13,7 +13,7 @@ import Com.POM.signIn_page;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.testng.Assert;
-public class registerTest extends BaseClass {
+public class registerTest extends Com.Utility.BaseClass {
 	public ExcelDataProvider excel;
 	private static final Logger logger = (Logger) LogManager.getLogger(registerTest.class);
 	@Test(priority=0)

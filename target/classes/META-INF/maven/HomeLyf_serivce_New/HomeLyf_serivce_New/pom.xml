@@ -21,46 +21,12 @@
         <version>3.1.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng1.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
 	</plugins>
-	<pluginManagement>
-		<plugins>
-			<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
-			<plugin>
-				<groupId>org.eclipse.m2e</groupId>
-				<artifactId>lifecycle-mapping</artifactId>
-				<version>1.0.0</version>
-				<configuration>
-					<lifecycleMappingMetadata>
-						<pluginExecutions>
-							<pluginExecution>
-								<pluginExecutionFilter>
-									<groupId>
-										org.apache.maven.plugins
-									</groupId>
-									<artifactId>
-										maven-compiler-plugin
-									</artifactId>
-									<versionRange>
-										[3.9.6,)
-									</versionRange>
-									<goals>
-										<goal>testCompile</goal>
-									</goals>
-								</pluginExecutionFilter>
-								<action>
-									<ignore></ignore>
-								</action>
-							</pluginExecution>
-						</pluginExecutions>
-					</lifecycleMappingMetadata>
-				</configuration>
-			</plugin>
-		</plugins>
-	</pluginManagement>
+	
   </build>
    <dependencies>
   <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
@@ -125,19 +91,7 @@
     <artifactId>log4j-api</artifactId>
     <version>2.22.0</version>
 </dependency>
-    <!-- Other dependencies -->
-    <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-core</artifactId>
-        <version>2.17.1</version> <!-- Use the latest version -->
-    </dependency>
-    <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-api</artifactId>
-        <version>2.17.1</version> <!-- Use the same version as log4j-core -->
-    </dependency>
-
-
+  
    </dependencies>
   
 </project>

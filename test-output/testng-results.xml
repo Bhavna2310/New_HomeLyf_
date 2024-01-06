@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-30T15:38:19 IST" name="Default suite" finished-at="2023-12-30T15:39:00 IST" duration-ms="40663">
+  <suite started-at="2024-01-05T14:57:58 IST" name="Suite" finished-at="2024-01-05T14:59:05 IST" duration-ms="67038">
     <groups>
     </groups>
-    <test started-at="2023-12-30T15:38:19 IST" name="Default test" finished-at="2023-12-30T15:39:00 IST" duration-ms="40663">
+    <test started-at="2024-01-05T14:57:58 IST" name="Test" finished-at="2024-01-05T14:59:05 IST" duration-ms="67038">
       <class name="testclass.registerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.registerTest@28e8dde3]" started-at="2023-12-30T15:38:19 IST" name="setup" finished-at="2023-12-30T15:38:36 IST" duration-ms="17063" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.registerTest@189aa67a]" started-at="2024-01-05T14:57:59 IST" name="setup" finished-at="2024-01-05T14:58:38 IST" duration-ms="39144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="takeScreenshot()[pri:0, instance:testclass.registerTest@28e8dde3]" started-at="2023-12-30T15:38:36 IST" name="takeScreenshot" finished-at="2023-12-30T15:38:36 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshot -->
-        <test-method signature="validverifytest()[pri:0, instance:testclass.registerTest@28e8dde3]" started-at="2023-12-30T15:38:36 IST" name="validverifytest" finished-at="2023-12-30T15:38:48 IST" duration-ms="11581" status="PASS">
+        <test-method signature="validverifytest()[pri:0, instance:testclass.registerTest@189aa67a]" started-at="2024-01-05T14:58:38 IST" name="validverifytest" finished-at="2024-01-05T14:58:52 IST" duration-ms="13707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validverifytest -->
-        <test-method is-config="true" signature="takeScreenshot()[pri:0, instance:testclass.registerTest@28e8dde3]" started-at="2023-12-30T15:38:48 IST" name="takeScreenshot" finished-at="2023-12-30T15:38:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshot -->
-        <test-method signature="invalidverifytest()[pri:1, instance:testclass.registerTest@28e8dde3]" started-at="2023-12-30T15:38:48 IST" name="invalidverifytest" finished-at="2023-12-30T15:39:00 IST" duration-ms="11946" status="PASS">
+        <test-method signature="invalidverifytest()[pri:1, instance:testclass.registerTest@189aa67a]" started-at="2024-01-05T14:58:52 IST" name="invalidverifytest" finished-at="2024-01-05T14:59:05 IST" duration-ms="13587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidverifytest -->
       </class> <!-- testclass.registerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

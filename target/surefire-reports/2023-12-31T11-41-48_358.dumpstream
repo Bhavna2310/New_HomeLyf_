@@ -1,5 +1,0 @@
-# Created at 2023-12-31T11:41:49.069
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Automation_Framework Homelyf\HomeLyf_serivce_New\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
